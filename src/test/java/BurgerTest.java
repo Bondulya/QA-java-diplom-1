@@ -74,7 +74,7 @@ public class BurgerTest {
     public void removeIngredientDecreaseListSize(){
         burger.removeIngredient(0);
         Assert.assertEquals("Ожидание: бургер будет состоять из 3 ингридиетов", 2, burger.ingredients.size());
-        // Assert.assertFalse("Ожидание: бургер без сыра", burger.ingredients.contains(cheese));
+
     }
 
     @Test
